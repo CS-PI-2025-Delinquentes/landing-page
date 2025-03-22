@@ -1,0 +1,120 @@
+/* General Style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+.interface{
+    max-width: 1780px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Header Style */
+header{
+    background-color: #0B0047;
+    margin: 21px 18px;
+    border-radius: 60px;
+    padding: 20px;
+}
+
+header > .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+header nav ul li:last-child {
+    margin-right: 50px;
+}
+
+.menu-desktop{
+    font-size: 40px;
+    color: #fff;
+    padding: 10px;
+}
+
+.link-btn{
+    display: flex;
+    align-items: center;
+}
+
+.btn-test-free button{
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #50F4A6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #2cd885;
+    transform: scale(1.05);
+}
+
+/* Top-Site Style */
+section.top-site{
+    padding: 40px 0;
+    margin: 50px 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+section.top-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top-site h1{
+    font-size: 70px;
+    color: #0B0047;
+    line-height: 100%;
+    font-weight: 900;
+}
+
+.top-site .txt-top-site p{
+    color: #0B0047;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 40px 0;
+    text-align: justify;
+    line-height: 100%;
+    max-width: 900px;
+}
+
+.top-site .img-top-site img{
+    position: relative;
+    width: 800px;
+}
+
+.btn-plans button{
+    padding: 18px 40px;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #50F4A6;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .2s;
+}
