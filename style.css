@@ -27,6 +27,13 @@ header > .interface{
     align-items: center;
 }
 
+.txt-link{
+    color: #fff;
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 2rem;
+}
+
 header nav ul{
     list-style-type: none;
 }
@@ -42,8 +49,12 @@ header nav ul li:last-child {
 
 .menu-desktop{
     font-size: 40px;
-    color: #fff;
     padding: 10px;
+}
+
+.menu-desktop i{
+    cursor: pointer;
+    color: #fff;
 }
 
 .link-btn{
@@ -70,10 +81,10 @@ button:hover{
 
 /* Top-Site Style */
 section.top-site{
-    padding: 40px 4%;
-    margin: 50px 30px;
     background-color: #fff;
     border-radius: 50px;
+    padding: 5rem 4%;
+    margin: 10rem 3rem;
 }
 
 section.top-site .flex{
@@ -102,6 +113,11 @@ section.top-site .flex{
 .top-site .img-top-site img{
     position: relative;
     width: 800px;
+    transition: .2s;
+}
+
+.top-site .img-top-site img:hover{
+    transform: scale(1.05);
 }
 
 .btn-plans button{
@@ -124,8 +140,8 @@ section.top-site .flex{
 .about{
     background-color: #fff;
     border-radius: 50px;
-    padding: 40px 4%;
-    margin: 50px 30px;
+    padding: 5rem 4%;
+    margin: 10rem 3rem;
 }
 
 .about h1{
@@ -143,6 +159,11 @@ section.top-site .flex{
     padding: 20px 10px;
     margin-top: 30px;
     box-shadow: 0px 0px 10px #000;
+    transition: .2s;
+}
+
+.about .cards:hover{
+    transform: scale(1.05);
 }
 
 .about .cards .img-card{
@@ -183,4 +204,27 @@ section.top-site .flex{
     margin: 10px;
     display: flex;
     justify-self: center;
+}
+
+/* Style Our Product */
+
+.product-screen{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5rem 4%;
+    margin: 10rem 3rem;
+    max-width: 40rem;
+}
+
+.product-screen h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #0B0047;
+}
+
+.img-our-product{
+    margin-top: 5rem;
+    background-color: #000;
+    justify-self: center;
+    box-shadow: 0px 10px 8px #000;
 }
