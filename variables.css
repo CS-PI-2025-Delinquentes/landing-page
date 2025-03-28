@@ -1,1 +1,11 @@
 /* Variables */
+:root{
+    /* Background */
+    --bg-color-cards: #0B0047; /* Nome da variavel sujeito a mudanças*/
+
+    /* Text color */
+    --text-color-blue: #0B0047;
+
+    /* Specific colors */
+    --naval-blue: #0B0047;
+}
