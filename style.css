@@ -195,29 +195,31 @@ button:hover{
     color: #fff;
 }
 
-.us .cards .img-card{
-    font-size: 100px;
-    padding: 10px;
-}
-
 .card-container{
     background-color: var(--naval-blue);
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.us .cards .img-card{
+    align-self: center;
+    padding: 0px;
 }
 
 .group-img{
-    height: 160px;
-    width: 160px;
-    border-radius: 5px;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 20px;
 }
 
 .us .cards{
     flex-direction: column;
     background-color: #fff;
     color: var(--naval-blue);
+    height: 25rem;
+    width: 20rem;
 }
 
 .us h1{
@@ -232,6 +234,7 @@ button:hover{
 
 .group-description{
     padding-top: 38px;
+    font-size: 25px;
 }
 
 /* div.img-card {
