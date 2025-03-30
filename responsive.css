@@ -1,0 +1,52 @@
+/* Responsiviness for mobile */
+/* Ainda devemos decidir o tamanho padão para mobile */
+@media (max-width: 720px) {
+
+/* About-us Style */
+
+    .us{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .us h1{
+        font-size: 2.25rem;
+        padding: 10px 10px 0px;
+        text-align: center;
+    } 
+
+    .card-container{
+        column-gap: 14px;
+        justify-content: center;
+    }
+
+    .us .cards{
+        width: 6.3rem;
+        height: 8rem;
+        border-radius: 6px;
+        margin-top: 1rem;
+        padding: 4px 0px;
+    }
+    
+    .group-img{
+        width: 5.8rem;
+        height: 5.9rem;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+
+    .us .cards h3 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .us .cards p {
+        font-size: 0.66rem;
+        font-weight: 300;
+    }    
+    
+    .group-description{
+        padding-top: 20px;
+        font-size: 0.9rem;
+    }
+}

@@ -209,6 +209,7 @@ button:hover{
     justify-self: center;
 }
 
+/* About-us Style */
 
 .us{
     background-color: var(--naval-blue);
@@ -229,6 +230,7 @@ button:hover{
 .us .cards .img-card{
     align-self: center;
     padding: 0px;
+    font-size: unset;
 }
 
 .group-img{
