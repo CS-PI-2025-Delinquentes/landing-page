@@ -240,6 +240,7 @@ button:hover{
     border-radius: 15px;
     padding-bottom: 5px;
     padding-top: 1vw;
+    transition: none;
 }
 
 .us .cards .img-card{
@@ -270,7 +271,7 @@ button:hover{
 
 .group-description{
     padding-top: 38px;
-    font-size: 25px;
+    font-size: 1.9vw;
 }
 
 /* Style Our Product */

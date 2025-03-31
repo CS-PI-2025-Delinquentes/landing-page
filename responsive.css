@@ -6,12 +6,12 @@
 
     .us{
         padding-top: 1rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1.5rem;
     }
     
     .us h1{
         font-size: 2.25rem;
-        padding: 10px 10px 0px;
+        padding: 0px 10px;
         text-align: center;
     } 
 
@@ -21,32 +21,30 @@
     }
 
     .us .cards{
-        width: 6.3rem;
-        height: 8rem;
+        width: 5.5rem;
+        height: 6.6rem;
         border-radius: 6px;
         margin-top: 1rem;
         padding: 4px 0px;
     }
     
     .group-img{
-        width: 5.8rem;
-        height: 5.9rem;
+        width: 5rem;
+        height: 4.5rem;
         border-radius: 6px;
         object-fit: cover;
     }
 
     .us .cards h3 {
         font-size: 1rem;
-        font-weight: 700;
     }
 
     .us .cards p {
-        font-size: 0.66rem;
-        font-weight: 300;
+        font-size: 0.57rem;
     }    
     
     .group-description{
         padding-top: 20px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
