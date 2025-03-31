@@ -214,8 +214,12 @@ button:hover{
 .us{
     background-color: var(--naval-blue);
     border-radius: 50px;
-    padding: 40px 4%;
+    padding: 40px 20px;
     margin: 50px 30px;
+    color: #fff;
+}
+
+.us h1{
     color: #fff;
 }
 
@@ -223,8 +227,19 @@ button:hover{
     background-color: var(--naval-blue);
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 1vw;
     justify-content: space-around;
+}
+
+.us .cards{
+    flex-direction: column;
+    background-color: #fff;
+    color: var(--naval-blue);
+    height: 20vw;
+    width: 15.9vw;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    padding-top: 1vw;
 }
 
 .us .cards .img-card{
@@ -234,27 +249,23 @@ button:hover{
 }
 
 .group-img{
-    height: 18rem;
-    width: 18rem;
+    height: 15vw;
+    width: 15vw;
     border-radius: 20px;
-}
-
-.us .cards{
-    flex-direction: column;
-    background-color: #fff;
-    color: var(--naval-blue);
-    height: 25rem;
-    width: 20rem;
-}
-
-.us h1{
-    color: #fff;
-
+    object-fit: cover;
 }
 
 .us .cards .txt-card{
     gap: 0;
     margin-left: 5px;
+}
+
+.about .cards h3 {
+    font-size: 2.23vw;
+}
+
+.about .cards p {
+    font-size: 1.57vw;
 }
 
 .group-description{
