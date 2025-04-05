@@ -1,4 +1,5 @@
 @import url('variables.css');
+@import url('responsisve.css');
 
 /* General Style */
 * {
@@ -36,7 +37,6 @@ p {
     font-size: 1.25rem;
     line-height: 1.5;
     font-weight: 300;
-    text-align: justify;
 }
 
 .container {
@@ -62,7 +62,7 @@ header>.interface {
 .txt-link {
     color: var(--white);
     font-weight: 900;
-    font-size: 60px;
+    font-size: 4rem;
     margin-left: 2rem;
 }
 
@@ -120,8 +120,7 @@ button:hover {
 
 .txt-top-site {
     color: var(--naval-blue);
-    max-width: 50%;
-
+    flex: 1 1 400px;
 }
 
 .txt-top-site p {
@@ -130,6 +129,8 @@ button:hover {
 
 .img-top-site img {
     width: 100%;
+    min-width: 300px;
+    max-width: 600px;
     transition: .2s;
 }
 
@@ -151,39 +152,49 @@ button:hover {
 
 /* Style About */
 
-.container .interface-about {
-    flex-direction: column;
-}
-
 .container .cards {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: 20px; 
     background-color: var(--naval-blue);
     color: var(--white);
-    display: flex;
-    border-radius: 30px;
-    justify-items: center;
-    padding: 20px 10px;
-    margin-top: 30px;
-    box-shadow: 0px 0px 10px var(--black);
-    transition: .2s;
+    border-radius: 20px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease-in-out;
 }
 
 .container .cards:hover {
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 
 .container .cards .img-card {
-    font-size: 100px;
-    padding: 50px;
+    font-size: 5rem;
+    flex: 0 0 80px;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
 }
 
 .container .cards .txt-card {
-    margin-left: 60px;
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-    max-width: 80%;
-    gap: 20px;
+    gap: 10px; 
+    text-align: left; 
+}
+
+.container .cards .txt-card h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.container .cards .txt-card p {
+    line-height: 1.5;
+    margin: 0;
 }
 
 .btn-free-test button {
@@ -250,10 +261,34 @@ button:hover {
 }
 
 /* Style Our Product */
+.product-screen {
+    gap: 20px;
+}
 
 .img-our-product {
-    margin-top: 5rem;
-    background-color: var(--black);
+    margin-top: 2rem;
+}
+
+.img-our-product img {
+    width: 80%; 
+    max-width: 600px; 
+    height: auto; 
+    object-fit: contain; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.btn-our-plans button{
+    padding: 18px 40px;
+    font-size: 30px;
+    color: var(--naval-blue);
+    font-weight: 800;
+    background-color: var(--aqua-marine);
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
     justify-self: center;
-    box-shadow: 0px 10px 8px var(--black);
+    display: none;
 }
