@@ -1,50 +1,14 @@
 /* Responsiviness for mobile */
 /* Ainda devemos decidir o tamanho padão para mobile */
-@media (max-width: 720px) {
+@media (max-width: 1225px and min) {
 
 /* About-us Style */
+.card-container {
+    background-color: var(--naval-blue);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    justify-content: space-around;
+}
 
-    .us{
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
-    }
-    
-    .us h1{
-        font-size: 2.25rem;
-        padding: 0px 10px;
-        text-align: center;
-    } 
-
-    .card-container{
-        column-gap: 0.8rem;
-        justify-content: center;
-    }
-
-    .us .cards{
-        width: 5.5rem;
-        height: 6.6rem;
-        border-radius: 6px;
-        margin-top: 1rem;
-        padding: 4px 0px;
-    }
-    
-    .group-img{
-        width: 5rem;
-        height: 4.5rem;
-        border-radius: 6px;
-        object-fit: cover;
-    }
-
-    .us .cards h3 {
-        font-size: 1rem;
-    }
-
-    .us .cards p {
-        font-size: 0.57rem;
-    }    
-    
-    .group-description{
-        padding-top: 20px;
-        font-size: 0.8rem;
-    }
 }
