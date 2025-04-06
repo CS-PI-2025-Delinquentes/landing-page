@@ -1,3 +1,5 @@
+/* Responsiviness for medium width screens */
+
 @media (max-width: 1500px) {
     /* General */
     .container .interface {
@@ -18,12 +20,25 @@
     }
 }
 
-@media (max-width: 1100px) {
-    /* General */
-    body {
-        width: 95%;
+@media (max-width: 1225px) {
+    /* About-us Style */
+    .card-container {
+        column-gap: 25px;
     }
 
+    .us-card {
+        width: 30%;
+        min-width: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .group-description {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+    /* General */
     h1 {
         font-size: 2.5rem;
     }
@@ -47,7 +62,7 @@
 }
 
 @media (max-width: 768px) {
-    /* General */ 
+    /* General */
     body {
         width: 95%;
     }
@@ -58,13 +73,13 @@
     }
 
     h1 {
-        font-size: 3rem ;
+        font-size: 3rem;
     }
 
     h2 {
         font-size: 2rem;
     }
-    
+
     h3 {
         font-size: 1.5rem;
     }
@@ -87,7 +102,7 @@
     }
 
     .container .interface {
-        flex-direction: column ;
+        flex-direction: column;
         gap: 1rem;
     }
 
@@ -108,18 +123,31 @@
 
     /* Our-Product*/
     .img-our-product img {
-        width: 90%; 
-        max-width: 300px; 
+        width: 90%;
+        max-width: 300px;
     }
 
     .btn-ourPlans {
         display: flex;
     }
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 8px;
+    }
+
+    .us-card {
+        width: 40%;
+        min-width: 150px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        max-width: 217px;
+    }
 }
 
 @media (max-width: 490px) {
     h1 {
-        font-size: 2rem ;
+        font-size: 2rem;
     }
 
     h2 {
@@ -146,7 +174,7 @@
     header .interface {
         justify-content: center;
     }
-    
+
     header .txt-link {
         margin: 0;
     }
@@ -154,5 +182,21 @@
     /* About */
     .about .cards .img-card {
         display: none;
+    }
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 8px;
+    }
+
+    .us-card {
+        width: 90%;
+        max-width: 300px;
+        padding-top: 5px;
+    }
+
+    .us-card .txt-card {
+        gap: 0;
+        margin-left: 1rem;
     }
 }

@@ -1,5 +1,4 @@
 @import url('variables.css');
-@import url('responsisve.css');
 
 /* General Style */
 * {
@@ -176,13 +175,13 @@ header nav ul li:last-child {
 .container .cards {
     display: flex;
     align-items: center;
-    gap: 20px; 
-    padding: 20px; 
-    margin-top: 20px; 
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
     background-color: var(--naval-blue);
     color: var(--white);
-    border-radius: 20px; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -193,19 +192,19 @@ header nav ul li:last-child {
 .container .cards .img-card {
     font-size: 300%;
     flex: 0 0 80px;
-    height: 80px; 
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .container .cards .txt-card {
-    flex: 1; 
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px; 
-    text-align: left; 
+    gap: 10px;
+    text-align: left;
 }
 
 .container .cards .txt-card h3 {
@@ -218,53 +217,75 @@ header nav ul li:last-child {
     margin: 0;
 }
 
-.us {
+/* About-us Style */
+
+.main-us {
     background-color: var(--naval-blue);
-    border-radius: 50px;
-    padding: 40px 4%;
+}
+
+.main-us h2 {
     color: var(--white);
 }
 
 .card-container {
-    background-color: var(--naval-blue);
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 8px;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
-.us .cards .img-card {
+.us-card {
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 15px;
+    width: 18%;
+    min-width: 180px;
+    display: flex;
+    transition: .2s;
+}
+
+.us-card:hover {
+    transform: scale(1.02);
+}
+
+.us-img-card {
     align-self: center;
-    padding: 0px;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 90%;
+    aspect-ratio: 1/1;
+    position: relative;
 }
 
 .group-img {
-    height: 18rem;
-    width: 18rem;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
     border-radius: 20px;
 }
 
-.us .cards {
-    flex-direction: column;
-    background-color: var(--white);
+.us-card .txt-card {
+    margin-left: 7px;
     color: var(--naval-blue);
-    height: 25rem;
-    width: 20rem;
-}
-
-.us h1 {
-    color: var(--white);
-}
-
-.us .cards .txt-card {
-    gap: 0;
-    margin-left: 5px;
 }
 
 .group-description {
-    padding-top: 38px;
-    font-size: 25px;
+    color: var(--white);
+    padding-top: 30px;
 }
+
+.name {
+    padding-top: 5px;
+    line-height: unset;
+    font-weight: 700;
+}
+
+.position {
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
 
 /* Style Our Product */
 .product-screen {
@@ -276,10 +297,10 @@ header nav ul li:last-child {
 }
 
 .img-our-product img {
-    width: 80%; 
-    max-width: 600px; 
-    height: auto; 
-    object-fit: contain; 
-    display: block; 
-    margin: 0 auto; 
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
