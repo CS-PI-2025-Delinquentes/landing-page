@@ -264,7 +264,7 @@ button:hover{
     width: 90%;
     aspect-ratio: 1/1;
     position: relative;
-    max-width: 217px;
+    /* max-width: 217px; */
 }
 
 .group-img{
@@ -277,10 +277,12 @@ button:hover{
 
 .us .cards .txt-card{
     gap: 0;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 .about .cards .name {
+    padding-top: 5px;
+    line-height: unset;
     font-weight: 700;
 }
 

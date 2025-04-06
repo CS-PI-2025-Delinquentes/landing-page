@@ -1,14 +1,64 @@
-/* Responsiviness for mobile */
-/* Ainda devemos decidir o tamanho padão para mobile */
-@media (max-width: 1225px and min) {
+/* Responsiviness for medium width screens */
 
-/* About-us Style */
-.card-container {
-    background-color: var(--naval-blue);
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 8px;
-    justify-content: space-around;
+@media (max-width: 1225px) {
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 25px;
+        margin-top: 30px;
+    }
+    
+    .us .cards {
+        width: 30%;
+        min-width: 150px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
 }
 
+/* Responsiviness for mobile and small screens */
+@media (max-width: 768px) {
+
+    body {
+        width: 95%;
+    }
+
+    /* About-us Style */
+    .us {
+        padding: 2rem;
+    }
+
+    .card-container {
+        column-gap: 8px;
+        margin-top: 30px;
+    }
+    
+    .us .cards {
+        width: 40%;
+        min-width: 150px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        max-width: 217px;
+    }
+}
+
+@media (max-width: 490px) {
+
+    /* About-us Style */
+
+    .card-container {
+        column-gap: 8px;
+        margin-top: 30px;
+    }
+    
+    .us .cards {
+        width: 90%;
+        max-width: 300px;
+        padding-top: 15px;
+    }
+
+    .us .cards .txt-card {
+        gap: 0;
+        margin-left: 1rem;
+    }
 }
