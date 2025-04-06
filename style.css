@@ -39,11 +39,20 @@ p {
     font-weight: 300;
 }
 
+section.container:first-of-type {
+    margin-top: 40px;
+}
+
 .container {
     background-color: var(--white);
     border-radius: 50px;
     padding: 3rem;
     margin: 80px 0;
+}
+
+.container .interface {
+    display: flex;
+    gap: 3rem;
 }
 
 /* Header Style */
@@ -94,37 +103,61 @@ header nav ul li:last-child {
     align-items: center;
 }
 
-.btn-test-free button {
+.btn {
     padding: 18px 40px;
-    font-size: 22px;
     color: var(--naval-blue);
-    font-weight: 700;
     background-color: var(--aqua-marine);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    font-weight: 700;
+    font-size: 22px;
 }
 
-button:hover {
+.btn:hover {
     box-shadow: 0px 0px 8px var(--aqua-marine-lite);
     transform: scale(1.05);
 }
 
-/* Top-Site Style */
-
-.container .interface {
-    display: flex;
-    gap: 3rem;
+.btn-plans {
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 40px;
 }
 
+.btn-test {
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 40px;
+    display: flex;
+    justify-self: center;
+}
+
+.btn-ourPlans {
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 40px;
+    display: flex;
+    justify-self: center;
+    display: none;
+}
+
+/* Top-Site Style */
 .txt-top-site {
     color: var(--naval-blue);
-    flex: 1 1 400px;
+    width: 50%;
 }
 
 .txt-top-site p {
     padding: 2rem 0;
+}
+
+.img-top-site {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .img-top-site img {
@@ -136,18 +169,6 @@ button:hover {
 
 .img-top-site img:hover {
     transform: scale(1.02);
-}
-
-.btn-plans button {
-    padding: 18px 40px;
-    font-size: 30px;
-    color: var(--naval-blue);
-    font-weight: 800;
-    background-color: var(--aqua-marine);
-    border: 0;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: .2s;
 }
 
 /* Style About */
@@ -170,7 +191,7 @@ button:hover {
 }
 
 .container .cards .img-card {
-    font-size: 5rem;
+    font-size: 300%;
     flex: 0 0 80px;
     height: 80px; 
     display: flex;
@@ -195,21 +216,6 @@ button:hover {
 .container .cards .txt-card p {
     line-height: 1.5;
     margin: 0;
-}
-
-.btn-free-test button {
-    padding: 18px 40px;
-    font-size: 40px;
-    color: var(--naval-blue);
-    font-weight: 800;
-    background-color: var(--aqua-marine);
-    border: 0;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: .2s;
-    margin: 10px;
-    display: flex;
-    justify-self: center;
 }
 
 .us {
@@ -276,19 +282,4 @@ button:hover {
     object-fit: contain; 
     display: block; 
     margin: 0 auto; 
-}
-
-.btn-our-plans button{
-    padding: 18px 40px;
-    font-size: 30px;
-    color: var(--naval-blue);
-    font-weight: 800;
-    background-color: var(--aqua-marine);
-    border: 0;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: .2s;
-    display: flex;
-    justify-self: center;
-    display: none;
 }
