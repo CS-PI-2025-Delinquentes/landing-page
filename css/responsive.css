@@ -1,0 +1,202 @@
+/* Responsiviness for medium width screens */
+
+@media (max-width: 1500px) {
+    /* General */
+    .container .interface {
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* Top-Site */
+    .img-top-site {
+        align-self: center;
+    }
+
+    .btn-plans {
+        display: none;
+    }
+}
+
+@media (max-width: 1225px) {
+    /* About-us Style */
+    .card-container {
+        column-gap: 25px;
+    }
+
+    .us-card {
+        width: 30%;
+        min-width: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .group-description {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+    /* General */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-test {
+        font-size: 28px;
+    }
+
+    /* Header */
+    header .txt-link {
+        font-size: 2.5rem;
+    }
+
+    header .menu-desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* General */
+    body {
+        width: 95%;
+    }
+
+    .container {
+        padding: 2rem;
+        margin: 40px 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-test {
+        font-size: 22px;
+    }
+
+    .btn-ourPlans {
+        font-size: 22px;
+    }
+
+    /* Header */
+    header .txt-link {
+        font-size: 2rem;
+    }
+
+    .container .interface {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Top-Site */
+    .txt-top-site {
+        width: unset;
+    }
+
+    .img-top-site {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-top-site img {
+        margin-top: 0;
+    }
+
+    /* Our-Product*/
+    .img-our-product img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .btn-ourPlans {
+        display: flex;
+    }
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 8px;
+    }
+
+    .us-card {
+        width: 40%;
+        min-width: 150px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        max-width: 217px;
+    }
+}
+
+@media (max-width: 490px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .btn-test {
+        font-size: 16px;
+    }
+
+    .btn-ourPlans {
+        font-size: 16px;
+    }
+
+    /* Header */
+    header .btn {
+        display: none;
+    }
+
+    header .interface {
+        justify-content: center;
+    }
+
+    header .txt-link {
+        margin: 0;
+    }
+
+    /* About */
+    .about .cards .img-card {
+        display: none;
+    }
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 8px;
+    }
+
+    .us-card {
+        width: 90%;
+        max-width: 300px;
+        padding-top: 5px;
+    }
+
+    .us-card .txt-card {
+        gap: 0;
+        margin-left: 1rem;
+    }
+}
