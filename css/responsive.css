@@ -200,3 +200,10 @@
         margin-left: 1rem;
     }
 }
+
+@midia (max-width: 1359px){
+    .product-contact{
+        display: block;
+        justify-content: center;
+    }
+}
