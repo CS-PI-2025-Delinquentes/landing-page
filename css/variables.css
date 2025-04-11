@@ -5,11 +5,15 @@
 
     --aqua-marine: #50F4A6;
 
-    --aqua-marine-lite: #2cd885;
+    --aqua-marine-light: #2cd885;
 
     --black: #000;
 
+    --light-black: #00000033;
+
     --white: #fff;
 
-    --lite-gray: #e7e7e7;
+    --light-gray: #e7e7e7;
+
+    --gold: #FFC700;
 }

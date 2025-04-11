@@ -304,3 +304,71 @@ header nav ul li:last-child {
     display: block;
     margin: 0 auto;
 }
+
+/* Style Review */
+.sec-review {
+    background-color: transparent;
+}
+
+.sec-review h3 {
+    color: var(--naval-blue);
+    font-weight: 800;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cards-reviews {
+    padding: 2rem;
+    margin: 0;
+    box-shadow: 1px 6px 8px var(--light-black);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    min-width: 400px; 
+}
+
+.cards-reviews p {
+    color: var(--naval-blue);
+}
+
+.info-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.img-reviewer img{ 
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.name-reviewer {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.stars {
+    font-size: 1.25rem;
+    color: var(--gold);
+}
+
+.txt-review {
+    width: 95%;
+}
