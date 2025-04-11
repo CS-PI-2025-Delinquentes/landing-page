@@ -143,6 +143,31 @@
         margin-top: 0px;
         max-width: 217px;
     }
+
+    /* Reviews */
+    .reviews {
+        grid-template-columns: 1fr;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .cards-reviews { 
+        margin: 0;
+        padding: 1.5rem;
+    } 
+
+    .img-reviewer img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .name-reviewer {
+        font-size: 1.2rem;
+    }
+
+    .stars {
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 490px) {
