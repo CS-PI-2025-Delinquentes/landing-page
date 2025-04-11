@@ -319,21 +319,22 @@ header nav ul li:last-child {
 .container-contact {
     display: flex;
     justify-content: space-between;
+    ;
 }
 
 .contact-screen h2 {
     margin-bottom: 2rem;
     font-size: 50px;
     font-weight: 900;
-    color: #0B0047;
+    color: var(--naval-blue);
 }
 
 .contact-screen button {
     padding: 18px 40px;
     font-size: 22px;
-    color: #fff;
+    color: var(--white);
     font-weight: 70;
-    background-color: #0B0047;
+    background-color: var(--naval-blue);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -347,7 +348,7 @@ textarea {
     border: none;
     border-radius: 10px;
     resize: none;
-    background-color: #E8E8E8;
+    background-color: var(--lite-gray);
     padding-left: 10px;
     margin: 10px 0;
     width: 520px;
@@ -359,7 +360,7 @@ input {
     border: none;
     border-radius: 50px;
     resize: none;
-    background-color: #E8E8E8;
+    background-color:var(--lite-gray);
     padding-left: 10px;
     margin: 10px 0;
     width: 520px;
@@ -373,7 +374,7 @@ input {
 
 .contact-icon i {
     cursor: pointer;
-    color: #0B0047;
+    color: var(--naval-blue);
 }
 
 .interface-icon {
@@ -391,11 +392,11 @@ input {
     gap: 10px;
 }
 
-.produt-contact {
+.product-contact {
     
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 6vw;
-    /* justify-content: space-between; */
+    /* justify-content: sspace-between; */
 }
