@@ -304,3 +304,41 @@ header nav ul li:last-child {
     display: block;
     margin: 0 auto;
 }
+
+/* Style Our Product */
+.faq .container {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.main-faq{
+    display: flex;
+    align-items: center;
+}
+
+.faq h2 {
+    padding-bottom: 1rem;
+}
+
+.question {
+    color: var(--naval-blue);
+    font-size: 1.5rem;
+}
+
+.answer {
+    padding-top: 0.5rem;
+    color: var(--naval-blue);
+}
+
+.faq-btn {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: var(--naval-blue);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
