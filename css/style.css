@@ -307,7 +307,7 @@ header nav ul li:last-child {
 /* contact */
 .contact-screen {
     height: fit-content;
-        width: 30%;
+    width: 30%;
 }
 
 .container-contact {
@@ -342,7 +342,7 @@ textarea {
     border: none;
     border-radius: 10px;
     resize: none;
-    background-color: var(--lite-gray);
+    background-color: var(--light-gray);
     padding-left: 10px;
     margin: 10px 0;
     width: 520px;
@@ -354,7 +354,7 @@ input {
     border: none;
     border-radius: 50px;
     resize: none;
-    background-color:var(--lite-gray);
+    background-color: var(--light-gray);
     padding-left: 10px;
     margin: 10px 0;
     width: 520px;
@@ -387,14 +387,13 @@ input {
 }
 
 .product-contact {
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 6vw;
 }
 
-/* Style Our Product */
+/* Style FAQ */
 .faq .container {
     padding: 1rem 2rem;
     border-radius: 20px;
@@ -482,7 +481,7 @@ input {
     justify-content: left;
 }
 
-.img-reviewer img{ 
+.img-reviewer img {
     border-radius: 100%;
     width: 80px;
     height: 80px;
@@ -549,14 +548,14 @@ input {
     color: var(--naval-blue);
     font-weight: bold;
     transition: .2s ease-in-out;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .form-img-label img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: none; 
+    display: none;
 }
 
 .form-img-label:hover {
@@ -564,7 +563,8 @@ input {
     transform: scale(1.1);
 }
 
-.form-name, .form-opinion {
+.form-name,
+.form-opinion {
     background-color: var(--gray);
     border-radius: 20px;
     padding: 15px;

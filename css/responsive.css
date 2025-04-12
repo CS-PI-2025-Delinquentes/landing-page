@@ -20,6 +20,8 @@
 }
 
 @media (max-width: 1359px) {
+
+    /* Contact */
     .product-contact {
         display: block;
         justify-content: center;
@@ -209,6 +211,8 @@
 }
 
 @media (max-width: 490px) {
+
+    /* General */
     h1 {
         font-size: 2rem;
     }
