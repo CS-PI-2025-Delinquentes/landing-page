@@ -312,6 +312,10 @@ header nav ul li:last-child {
     cursor: pointer;
 }
 
+.faq .container:hover {
+    transform: scale(1.02);
+}
+
 .main-faq {
     display: flex;
     align-items: center;
