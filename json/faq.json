@@ -1,0 +1,14 @@
+[
+    {
+        "question": "O software é difícil de usar?",
+        "answer": "A nossa interface é projetada para atender, de maneira simplificada e 0intuitiva, uma variedade considerável de usuários, dispondo de recursos que visam garantir a acessibilidade, responsividade e uma usabilidade."
+    },
+    {
+        "question": "O sistema funciona apenas online?",
+        "answer": "Sim! É necessário que o usuário tenha uma conexão estável com internet para o acesso ao conteúdo da aplicação."
+    },
+    {
+        "question": "Posso testar antes de contratar?",
+        "answer": "Sim! Oferecemos uma demonstração gratuita para que você possa experimentar todas as funcionalidades oferecidas pelo plano empresarial por 30 dias."
+    }
+]
