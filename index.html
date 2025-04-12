@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- Link Bootstrap Icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- End Link Bootstrap Icons -->
     <!-- Link Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- End Google Fonts-->
-
+    <!-- Link Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- End Link Bootstrap Icons -->
     <title>Delinquentes</title>
 </head>
 
@@ -262,7 +261,28 @@
             </div>
             <h3>Avalie nosso app</h3>
             <div class="ratting">
-
+                <form>
+                    <div class="form-container">
+                        <div class="info-reviewer">
+                            <input id="form-img" class="form-img" type="file" accept="image/*">
+                            <label for="form-img" class="form-img-label">
+                                <img id="form-img-preview" src="" alt="+" />
+                            </label>
+                            <div style="flex: 1;">
+                                <input class="form-name" type="text" placeholder="Digite seu nome">
+                                <div class="form-stars">
+                                    <i class="bi bi-star" onclick="rateStars(this)"></i>
+                                    <i class="bi bi-star" onclick="rateStars(this)"></i>
+                                    <i class="bi bi-star" onclick="rateStars(this)"></i>
+                                    <i class="bi bi-star" onclick="rateStars(this)"></i>
+                                    <i class="bi bi-star" onclick="rateStars(this)"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <textarea class="form-opinion" rows="4" placeholder="Deixe seu review"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Avaliação" class="btn-form">
+                </form>
             </div>
         </section>
     </main>

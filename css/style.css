@@ -307,7 +307,7 @@ header nav ul li:last-child {
 
 /* Style Review */
 .sec-review {
-    background-color: var(--transparent);
+    background: none;
     padding: 0;
 }
 
@@ -374,4 +374,94 @@ header nav ul li:last-child {
 
 .txt-review {
     width: 95%;
+}
+
+.ratting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-container {
+    margin: 20px 0;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 6px 8px var(--light-black);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-reviewer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-img {
+    display: none;
+}
+
+.form-img-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--naval-blue);
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    overflow: hidden; 
+}
+
+.form-img-label img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none; 
+}
+
+.form-img-label:hover {
+    background-color: var(--light-gray);
+    transform: scale(1.1);
+}
+
+.form-name, .form-opinion {
+    background-color: var(--gray);
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.form-stars {
+    color: var(--gold);
+    font-size: 1.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn-form {
+    background-color: var(--naval-blue);
+    color: var(--white);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    transition: .2s;
+}
+
+.btn-form:hover {
+    transform: scale(1.05);
 }
