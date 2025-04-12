@@ -152,6 +152,10 @@
         padding: 0;
     }
 
+    .sec-review h3 {
+        font-size: 1.5rem;
+    }
+
     .reviews {
         grid-template-columns: 1fr;
         margin: 1rem 0 1rem 0;
@@ -246,4 +250,13 @@
         gap: 0;
         margin-left: 1rem;
     }
+
+    /* Reviews */
+    .sec-review h3 {
+        font-size: 20px;
+    }
+
+    .name-reviewer {
+        font-size: 1.1rem;
+    }   
 }
