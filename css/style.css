@@ -310,6 +310,7 @@ header nav ul li:last-child {
     border-radius: 20px;
     margin: 1rem 0;
     cursor: pointer;
+    transition: .2s;
 }
 
 .faq .container:hover {
