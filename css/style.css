@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: var(--lite-gray);
+    background-color: var(--light-gray);
     min-width: 320px;
     width: 85%;
     margin: 2rem auto;
@@ -115,7 +115,7 @@ header nav ul li:last-child {
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 8px var(--aqua-marine-lite);
+    box-shadow: 0px 0px 8px var(--aqua-marine-light);
     transform: scale(1.05);
 }
 
@@ -307,7 +307,7 @@ header nav ul li:last-child {
 /* contact */
 .contact-screen {
     height: fit-content;
-        width: 30%;
+    width: 30%;
 }
 
 .container-contact {
@@ -342,7 +342,7 @@ textarea {
     border: none;
     border-radius: 10px;
     resize: none;
-    background-color: var(--lite-gray);
+    background-color: var(--light-gray);
     padding-left: 10px;
     margin: 10px 0;
     width: 520px;
@@ -354,7 +354,7 @@ input {
     border: none;
     border-radius: 50px;
     resize: none;
-    background-color:var(--lite-gray);
+    background-color: var(--light-gray);
     padding-left: 10px;
     margin: 10px 0;
     width: 520px;
@@ -387,14 +387,13 @@ input {
 }
 
 .product-contact {
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 6vw;
 }
 
-/* Style Our Product */
+/* Style FAQ */
 .faq .container {
     padding: 1rem 2rem;
     border-radius: 20px;
@@ -436,4 +435,167 @@ input {
 
 .hidden {
     display: none;
+}
+
+/* Style Review */
+.sec-review {
+    background: none;
+    padding: 0;
+}
+
+.sec-review h3 {
+    color: var(--naval-blue);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.reviews {
+    margin: 2rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.cards-reviews {
+    padding: 2rem;
+    margin: 0;
+    box-shadow: 1px 6px 8px var(--light-black);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: .2s;
+}
+
+.cards-reviews p {
+    color: var(--naval-blue);
+}
+
+.cards-reviews:hover {
+    transform: scale(1.02);
+}
+
+.info-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.img-reviewer img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.name-reviewer {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.stars {
+    font-size: 1.25rem;
+    color: var(--gold);
+}
+
+.txt-review {
+    width: 95%;
+}
+
+.ratting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-container {
+    margin: 20px 0;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 6px 8px var(--light-black);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-reviewer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-img {
+    display: none;
+}
+
+.form-img-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--naval-blue);
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    overflow: hidden;
+}
+
+.form-img-label img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.form-img-label:hover {
+    background-color: var(--light-gray);
+    transform: scale(1.1);
+}
+
+.form-name,
+.form-opinion {
+    background-color: var(--gray);
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.form-stars {
+    color: var(--gold);
+    font-size: 1.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn-form {
+    background-color: var(--naval-blue);
+    color: var(--white);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    transition: .2s;
+}
+
+.btn-form:hover {
+    transform: scale(1.02);
 }
