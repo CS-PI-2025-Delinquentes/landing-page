@@ -286,7 +286,6 @@ header nav ul li:last-child {
     padding-bottom: 5px;
 }
 
-
 /* Style Our Product */
 .product-screen {
     gap: 20px;
@@ -306,14 +305,9 @@ header nav ul li:last-child {
 }
 
 /* contact */
-
 .contact-screen {
     height: fit-content;
         width: 30%;
-}
-
-.contact-center {
-    /* place-items: center; */
 }
 
 .container-contact {
@@ -398,5 +392,48 @@ input {
     flex-wrap: wrap;
     align-items: center;
     gap: 6vw;
-    /* justify-content: sspace-between; */
+}
+
+/* Style Our Product */
+.faq .container {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.faq .container:hover {
+    transform: scale(1.02);
+}
+
+.main-faq {
+    display: flex;
+    align-items: center;
+}
+
+.faq h2 {
+    padding-bottom: 1rem;
+}
+
+.question {
+    color: var(--naval-blue);
+    font-size: 1.5rem;
+}
+
+.answer {
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    color: var(--naval-blue);
+}
+
+.faq-btn {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: var(--naval-blue);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
