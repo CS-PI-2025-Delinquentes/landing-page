@@ -286,7 +286,6 @@ header nav ul li:last-child {
     padding-bottom: 5px;
 }
 
-
 /* Style Our Product */
 .product-screen {
     gap: 20px;
@@ -303,6 +302,140 @@ header nav ul li:last-child {
     object-fit: contain;
     display: block;
     margin: 0 auto;
+}
+
+/* contact */
+.contact-screen {
+    height: fit-content;
+        width: 30%;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+.contact-screen h2 {
+    margin-bottom: 2rem;
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--naval-blue);
+}
+
+.contact-screen button {
+    padding: 18px 40px;
+    font-size: 22px;
+    color: var(--white);
+    font-weight: 70;
+    background-color: var(--naval-blue);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    width: 520px;
+    height: 56px
+}
+
+textarea {
+    font-family: montserrat;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    background-color: var(--lite-gray);
+    padding-left: 10px;
+    margin: 10px 0;
+    width: 520px;
+    height: 154px
+}
+
+input {
+    font-family: montserrat;
+    border: none;
+    border-radius: 50px;
+    resize: none;
+    background-color:var(--lite-gray);
+    padding-left: 10px;
+    margin: 10px 0;
+    width: 520px;
+    height: 56px
+}
+
+.contact-icon {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.contact-icon i {
+    cursor: pointer;
+    color: var(--naval-blue);
+}
+
+.interface-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 3rem 0 0;
+    display: flex;
+    gap: 10px;
+}
+
+.product-contact {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6vw;
+}
+
+/* Style Our Product */
+.faq .container {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.faq .container:hover {
+    transform: scale(1.02);
+}
+
+.main-faq {
+    display: flex;
+    align-items: center;
+}
+
+.faq h2 {
+    padding-bottom: 1rem;
+}
+
+.question {
+    color: var(--naval-blue);
+    font-size: 1.5rem;
+}
+
+.answer {
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    color: var(--naval-blue);
+}
+
+.faq-btn {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: var(--naval-blue);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Style Review */
