@@ -304,11 +304,15 @@ header nav ul li:last-child {
     border-radius: 2rem;
     border: 4px solid var(--naval-blue);
     width: 30%;
-    min-width: 260px;
+    min-width: 248px;
     flex-direction: column;
 
     transition: 0.2s 
 }
+
+.img-our-product img:hover {
+    transform: scale(1.02);
+} 
 
 /* contact */
 
@@ -403,14 +407,7 @@ input {
     gap: 5px;
 }
 
-.product-contact {
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 6vw;
-    /* justify-content: sspace-between; */
-}
+
 
 .none {
     display: none;

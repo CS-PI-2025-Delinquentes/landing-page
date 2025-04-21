@@ -59,6 +59,17 @@
     header .menu-desktop {
         display: none;
     }
+    /* contact*/
+    .none{
+        display: flex;
+    }
+    .icon-margin {
+        display: none;
+    }
+    .contact-screen {
+        place-items: center;
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
@@ -122,9 +133,7 @@
     }
 
     /* Our-Product*/
-    .img-our-product img:hover {
-        transform: scale(1.02);
-    } 
+    
 
     .btn-ourPlans {
         display: flex;
@@ -142,17 +151,7 @@
         margin-top: 0px;
         max-width: 217px;
     }
-    /* contact*/
-    .none{
-        display: flex;
-    }
-    .icon-margin {
-        display: none;
-    }
-    .contact-screen {
-        place-items: center;
-        display: block;
-    }
+    
 }
 
 @media (max-width: 490px) {
