@@ -1,6 +1,5 @@
-/* Responsiviness for medium width screens */
-
 @media (max-width: 1500px) {
+
     /* General */
     .container .interface {
         gap: 2rem;
@@ -20,7 +19,17 @@
     }
 }
 
+@media (max-width: 1359px) {
+
+    /* Contact */
+    .product-contact {
+        display: block;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 1225px) {
+
     /* About-us Style */
     .card-container {
         column-gap: 25px;
@@ -31,13 +40,14 @@
         min-width: 150px;
         margin-bottom: 30px;
     }
-    
+
     .group-description {
         padding-top: 0px;
     }
 }
 
 @media (max-width: 1100px) {
+
     /* General */
     h1 {
         font-size: 2.5rem;
@@ -59,6 +69,11 @@
     header .menu-desktop {
         display: none;
     }
+
+    /* Reviews */
+    .ratting {
+        grid-template-columns: 1fr;
+    }
     /* contact*/
     .none{
         display: flex;
@@ -73,6 +88,7 @@
 }
 
 @media (max-width: 768px) {
+
     /* General */
     body {
         width: 95%;
@@ -151,10 +167,60 @@
         margin-top: 0px;
         max-width: 217px;
     }
-    
+
+    /* Reviews */
+    .sec-review {
+        padding: 0;
+    }
+
+    .sec-review h3 {
+        font-size: 1.5rem;
+    }
+
+    .reviews {
+        grid-template-columns: 1fr;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .cards-reviews {
+        margin: 0;
+        padding: 1.5rem;
+    }
+
+    .img-reviewer img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .name-reviewer {
+        font-size: 1.2rem;
+    }
+
+    .stars {
+        font-size: 1rem;
+    }
+
+    .form-container {
+        padding: 1rem;
+    }
+
+    .form-name,
+    .form-opinion {
+        font-size: 1rem;
+    }
+
+    .form-stars {
+        font-size: 1.15rem;
+    }
+
+    .btn-form {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 490px) {
+
+    /* General */
     h1 {
         font-size: 2rem;
     }
@@ -208,11 +274,36 @@
         gap: 0;
         margin-left: 1rem;
     }
-}
 
-@midia (max-width: 1359px){
-    .product-contact{
-        display: block;
-        justify-content: center;
+    /* Style Our Product */
+    .faq .container {
+        padding: 1rem;
+    }
+
+    .faq h2 {
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 0.85rem;
+    }
+
+    .faq-btn {
+        font-size: 0.9rem;
+        padding-right: 0.5rem;
+    }
+
+    /* Reviews */
+    .sec-review h3 {
+        font-size: 20px;
+    }
+
+    .name-reviewer {
+        font-size: 1.1rem;
     }
 }

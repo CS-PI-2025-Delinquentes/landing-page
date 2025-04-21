@@ -1,4 +1,26 @@
-## Padrões de Código
+## 👥 Integrantes
+
+| Nome           | Função        | GitHub       | Responsabilidades                                                                                        |
+| -------------- | ------------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| Arthur Teruel  | Product Owner | @httpteruel  | Define e prioriza o backlog, representa o cliente e esclarece requisitos                                 |
+| Isaque Dias    | Scrum Master  | @isqdev      | Facilita o processo, remove impedimentos, garante o uso correto do Scrum, e faz a prototipação de telas  |
+| Gregory Soares | Desenvolvedor | @Gregory-SF  | Desenvolve o produto, estima tarefas e trabalha de forma colaborativa                                    |
+| Leandro Menoni | Desenvolvedor | @MenoniJesus | Desenvolve o produto, estima tarefas e trabalha de forma colaborativa                                    |
+| Pedro Lino     | Desenvolvedor | @PedrooLino  | Desenvolve o produto, estima tarefas e trabalha de forma colaborativa                                    |
+## 🎯 Objetivo
+Criar uma landing page para divulgar o software que será desenvolvido futuramente com um cliente real. Este projeto serve como preparação para o desenvolvimento completo.
+## 🛠️ Ferramentas
+
+| Ferramenta          | Utilidade                                                      |
+| ------------------- | -------------------------------------------------------------- |
+| GitHub              | Versionamento, hospedagem e acompanhamento das tarefas do time |
+| Discord/Google Meet | Reuniões                                                       |
+| Figma               | Criação do protótipo da landing page                           |
+| VS Code             | Ambiente de desenvolvimento do projeto                         |
+| Dontpad             | Acesso rápido a links relevantes para o projeto                |
+| Notion              | Manual de processos e melhores práticas                        |
+
+## 📝 Padrões de Código
 
 ### Regras gerais
 - Nome de funções, variáveis e arquivos, exclusivamente em inglês
