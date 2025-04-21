@@ -122,10 +122,9 @@
     }
 
     /* Our-Product*/
-    .img-our-product img {
-        width: 90%;
-        max-width: 300px;
-    }
+    .img-our-product img:hover {
+        transform: scale(1.02);
+    } 
 
     .btn-ourPlans {
         display: flex;
@@ -142,6 +141,17 @@
         margin-bottom: 30px;
         margin-top: 0px;
         max-width: 217px;
+    }
+    /* contact*/
+    .none{
+        display: flex;
+    }
+    .icon-margin {
+        display: none;
+    }
+    .contact-screen {
+        place-items: center;
+        display: block;
     }
 }
 
