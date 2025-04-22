@@ -74,6 +74,20 @@
     .ratting {
         grid-template-columns: 1fr;
     }
+    /* contact*/
+    .none{
+        display: flex;
+    }
+    .icon-margin {
+        display: none;
+    }
+    .contact-screen {
+        display: block;
+    }
+    .contact-screen h2{
+        width: unset;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -138,10 +152,7 @@
     }
 
     /* Our-Product*/
-    .img-our-product img {
-        width: 90%;
-        max-width: 300px;
-    }
+    
 
     .btn-ourPlans {
         display: flex;

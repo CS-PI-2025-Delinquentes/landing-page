@@ -115,7 +115,7 @@ header nav ul li:last-child {
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 8px var(--aqua-marine-light);
+    box-shadow: 0px 0px 8px var(--aqua-marine-lite);
     transform: scale(1.05);
 }
 
@@ -286,80 +286,63 @@ header nav ul li:last-child {
     padding-bottom: 5px;
 }
 
+
 /* Style Our Product */
 .product-screen {
     gap: 20px;
 }
 
 .img-our-product {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .img-our-product img {
-    width: 80%;
-    max-width: 600px;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
+    border-radius: 2rem;
+    border: 4px solid var(--naval-blue);
+    width: 30%;
+    min-width: 248px;
+    flex-direction: column;
+
+    transition: 0.2s 
 }
 
+.img-our-product img:hover {
+    transform: scale(1.02);
+} 
+
 /* contact */
+
 .contact-screen {
-    height: fit-content;
-    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 1px;
+}
+
+.contact-screen h2{
+    color: var(--naval-blue);
+    width: 300px;
+}
+.icon-margin {
+    margin-right: 22%;
+}
+
+.contact-center {
+    place-items: center; 
+    display: inline-block ;
 }
 
 .container-contact {
     display: flex;
     justify-content: space-between;
-    ;
 }
 
-.contact-screen h2 {
-    margin-bottom: 2rem;
-    font-size: 50px;
-    font-weight: 900;
-    color: var(--naval-blue);
-}
 
-.contact-screen button {
-    padding: 18px 40px;
-    font-size: 22px;
-    color: var(--white);
-    font-weight: 70;
-    background-color: var(--naval-blue);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-    width: 520px;
-    height: 56px
-}
 
-textarea {
-    font-family: montserrat;
-    border: none;
-    border-radius: 10px;
-    resize: none;
-    background-color: var(--light-gray);
-    padding-left: 10px;
-    margin: 10px 0;
-    width: 520px;
-    height: 154px
-}
 
-input {
-    font-family: montserrat;
-    border: none;
-    border-radius: 50px;
-    resize: none;
-    background-color: var(--light-gray);
-    padding-left: 10px;
-    margin: 10px 0;
-    width: 520px;
-    height: 56px
-}
 
 .contact-icon {
     font-size: 40px;
@@ -381,17 +364,17 @@ input {
 .icon-list {
     list-style: none;
     padding: 0;
-    margin: 3rem 0 0;
+    margin: 0.5rem 0 0;
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
-.product-contact {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 6vw;
+
+
+.none {
+    display: none;
 }
+
 
 /* Style FAQ */
 .faq .container {
