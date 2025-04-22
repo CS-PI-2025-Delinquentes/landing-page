@@ -85,6 +85,10 @@
         place-items: center;
         display: block;
     }
+    .contact-screen h2{
+        width: unset;
+    }
+    
 }
 
 @media (max-width: 768px) {
