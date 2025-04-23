@@ -582,3 +582,11 @@ header nav ul li:last-child {
 .btn-form:hover {
     transform: scale(1.02);
 }
+/*Planos*/
+
+
+.cards-reviews.container button{
+    background-color: var(--aqua-marine);
+    color: var(--naval-blue);
+    margin-top: 100%;
+}
