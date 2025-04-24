@@ -82,7 +82,7 @@
 
 [data-theme="high-contrast"] {
 
-    background-color: #000000;
+    background-color: var(--black);
 
     h1 {
         color: var(--white);
@@ -91,37 +91,40 @@
     h2 {
         color: var(--white);
     }
+
+    h3 {
+        color: var(--white);
+    }
     
-    .container {
-        background-color: var(--naval-blue);    
+    p {
+        color: var(--white);
+    }
+    
+    header {
+        background-color: var(--black);
+        border: 4px solid var(--white);
     }
 
-    .txt-top-site {
-        color: var(--white);
+    .container {
+        background-color: var(--black);  
+        border: 4px solid var(--white);  
     }
 
     .container .cards {
-        /* mexer */
+        background-color: var(--black);
         border: 4px solid var(--white);
     }    
+    
+    .img-our-product img {
+        border: unset;
+    }
 
-    .product-screen h2 {
-        color: var(--white);
+    .name,
+    .position {
+        color: var(--black);
     }
 
     .contact-icon i {
-        color: var(--white);
-    }
-
-    .contact-screen h2 {
-        color: var(--white);
-    }
-
-    .question {
-        color: var(--white);
-    }
-
-    .answer {
         color: var(--white);
     }
 
@@ -130,28 +133,13 @@
     }
 
     .sec-review {
-        background: none;
-    }
-    .sec-review h3 {
-        color: var(--white);
-    }
-
-    .cards-reviews p {
-        color: var(--white);
+        border: none;
     }
 
     .form-container {
-        background-color: var(--naval-blue);
+        background-color: var(--black);
+        border: 4px solid var(--white);
     }
-
-    .form-img-label {
-        background-color: var(--gray);
-        color: var(--naval-blue);
-    }
-
-    .form-img-label:hover {
-        background-color: var(--light-gray);
-    }    
     
     .form-name,
     .form-opinion {
@@ -160,6 +148,6 @@
 
     .btn-form {
         background-color: var(--white);
-        color: var(--naval-blue);
+        color: var(--black);
     }    
 }
