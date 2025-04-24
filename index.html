@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/variables.css">
     <!-- Link Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
     <title>Delinquentes</title>
 </head>
 
-<body>
+<body data-theme="light">
     <header>
         <div class="interface">
             <h1 class="txt-link">DLNQNTS</h1>
@@ -336,6 +337,13 @@
                 </form>
             </div>
         </section>
+        
+        <button id="btnAlterarTema" onclick="changeTheme()">Light</button>
+        <button>pincel</button>
+        <button class="btn-color">Tema Claro</button>
+        <button class="btn-color">Tema Escuro</button>
+        <button class="btn-color">Alto Contraste</button>
+
     </main>
 
     <script src="js/index.js"></script>
