@@ -70,17 +70,9 @@ function rateStars(selectedStar) {
 function saveTheme() {
     const localTheme = sessionStorage.getItem("theme");
     document.body.setAttribute('data-theme',localTheme);
-    const btnAlterarTema = document.getElementById("btnAlterarTema");
-    btnAlterarTema.textContent = localTheme == 'light' ? 'Dark' : 'Light';
 }
 
-function changeTheme() {
-    const theme = document.body.getAttribute("data-theme");
-    const newTheme = theme == 'dark' ? 'light' : 'dark';
-
-    sessionStorage.setItem("theme", newTheme);
-    document.body.setAttribute('data-theme', newTheme);
-
-    const btnAlterarTema = document.getElementById("btnAlterarTema");
-    btnAlterarTema.textContent = btnAlterarTema.textContent == 'Light' ? 'Dark' : 'Light';
+function changeTheme(theme) {
+    sessionStorage.setItem("theme", theme);
+    document.body.setAttribute('data-theme', theme);
 }
