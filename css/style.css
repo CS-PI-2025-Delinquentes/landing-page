@@ -584,9 +584,41 @@ header nav ul li:last-child {
 }
 /*Planos*/
 
+.cards-plans {
+    padding: 2rem;
+    margin: 0;
+    box-shadow: 1px 6px 8px var(--light-black);
+    border-radius: 20px;
+    gap: 10px;
+    transition: .2s;
+    display: grid;
+    grid-template-areas: 
+        "title"
+        "description"
+        "price"
+        "button-plans";
+    grid-template-rows: 1fr 1fr auto auto;
+}
+.title{
+    grid-area: title;
+}
+.description{
+    grid-area: description;
+    margin-top: 10px;
+}
+.price{
+    grid-area: price;
+    margin-left: auto;
+    margin-bottom:0%;
+}
+.button-plans{
+    grid-area: button-plans;
+}
 
-.cards-reviews.container button{
+
+.cards-plans.container button{
     background-color: var(--aqua-marine);
     color: var(--naval-blue);
-    margin-top: 100%;
+    padding: 0.5rem;
 }
+
