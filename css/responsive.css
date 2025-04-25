@@ -73,6 +73,8 @@
     /* Reviews */
     .ratting {
         grid-template-columns: 1fr;
+        justify-self: unset;
+        width: 100%;
     }
     /* contact*/
     .none{
