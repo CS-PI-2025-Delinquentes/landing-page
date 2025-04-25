@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/variables.css">
     <!-- Link Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
     <title>Delinquentes</title>
 </head>
 
-<body>
+<body data-theme="light">
     <header>
         <div class="interface">
             <h1 class="txt-link">DLNQNTS</h1>
@@ -373,6 +374,15 @@
                 </form>
             </div>
         </section>
+        
+        <div class="theme-container">
+            <div class="themes hidden">
+                <button id="light" class="btn-themes" onclick="changeTheme('light')"><img src="./img/sun.svg" alt="imagem de um pincel">Tema Claro</button>
+                <button id="dark" class="btn-themes" onclick="changeTheme('dark')"><img src="./img/moon.svg" alt="imagem de um pincel">Tema Escuro</button>
+                <button id="high-contrast" class="btn-themes" onclick="changeTheme('high-contrast')"><img src="./img/contrast.svg" alt="imagem de um pincel">Alto Contraste</button>
+            </div>
+            <button id="brush" onclick="hideTheme()"><img src="./img/brush.svg" alt="imagem de um pincel"></button>
+        </div>
     </main>
 
     <script src="js/index.js"></script>

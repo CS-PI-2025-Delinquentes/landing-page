@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     createFaq();
+    saveTheme();
 });
 
 // Section FAQ
@@ -64,4 +65,19 @@ function rateStars(selectedStar) {
             star.classList.remove('bi-star-fill');
         }
     });
+}
+
+function saveTheme() {
+    const localTheme = sessionStorage.getItem("theme");
+    document.body.setAttribute('data-theme',localTheme);
+}
+
+function changeTheme(theme) {
+    sessionStorage.setItem("theme", theme);
+    document.body.setAttribute('data-theme', theme);
+}
+
+function hideTheme() {
+    const btns = document.body.querySelector(".themes");
+    btns.classList.toggle("hidden");
 }
