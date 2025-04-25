@@ -105,6 +105,10 @@
         border: 4px solid var(--white);
     }
 
+    .btn {
+        background-color: #00FFFF;
+    }
+
     .container {
         background-color: var(--black);  
         border: 4px solid var(--white);  

@@ -76,3 +76,8 @@ function changeTheme(theme) {
     sessionStorage.setItem("theme", theme);
     document.body.setAttribute('data-theme', theme);
 }
+
+function hideTheme() {
+    const btns = document.body.querySelector(".themes");
+    btns.classList.toggle("hidden");
+}

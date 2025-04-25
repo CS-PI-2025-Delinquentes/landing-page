@@ -338,10 +338,14 @@
             </div>
         </section>
         
-        <button>pincel</button>
-        <button class="btn-color" onclick="changeTheme('light')">Tema Claro</button>
-        <button class="btn-color" onclick="changeTheme('dark')">Tema Escuro</button>
-        <button class="btn-color" onclick="changeTheme('high-contrast')">Alto Contraste</button>
+        <div class="theme-container">
+            <div class="themes hidden">
+                <button id="light" class="btn-themes" onclick="changeTheme('light')"><img src="./img/sun.svg" alt="imagem de um pincel">Tema Claro</button>
+                <button id="dark" class="btn-themes" onclick="changeTheme('dark')"><img src="./img/moon.svg" alt="imagem de um pincel">Tema Escuro</button>
+                <button id="high-contrast" class="btn-themes" onclick="changeTheme('high-contrast')"><img src="./img/contrast.svg" alt="imagem de um pincel">Alto Contraste</button>
+            </div>
+            <button id="brush" onclick="hideTheme()"><img src="./img/brush.svg" alt="imagem de um pincel"></button>
+        </div>
 
     </main>
 
