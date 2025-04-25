@@ -325,11 +325,16 @@
     }
 
     /* Reviews */
-    .sec-review h3 {
+    .sec-review h2 {
         font-size: 20px;
+        padding: 0.5rem;
     }
 
     .name-reviewer {
         font-size: 1.1rem;
+    }
+
+    .ratting h3 {
+        padding: 0.5rem;
     }
 }
