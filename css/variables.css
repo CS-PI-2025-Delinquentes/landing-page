@@ -123,6 +123,10 @@
         border: unset;
     }
 
+    .cards-plans.container button {
+        background-color: #00FFFF;
+    }
+
     .name,
     .position {
         color: var(--black);
