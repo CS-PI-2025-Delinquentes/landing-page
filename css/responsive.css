@@ -73,6 +73,8 @@
     /* Reviews */
     .ratting {
         grid-template-columns: 1fr;
+        justify-self: unset;
+        width: 100%;
     }
     /* contact*/
     .none{
@@ -323,11 +325,15 @@
     }
 
     /* Reviews */
-    .sec-review h3 {
-        font-size: 20px;
+    .sec-review h2 {
+        padding: 0.5rem;
     }
 
     .name-reviewer {
         font-size: 1.1rem;
+    }
+
+    .ratting h3 {
+        padding: 0.5rem;
     }
 }

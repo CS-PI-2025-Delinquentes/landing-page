@@ -12,6 +12,7 @@ body {
     min-width: 320px;
     width: 85%;
     margin: 2rem auto;
+    max-width: 1980px;
 }
 
 h1 {
@@ -484,7 +485,9 @@ header nav ul li:last-child {
 
 .ratting {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-self: center;
+    width: 50%;
 }
 
 .form-container {
