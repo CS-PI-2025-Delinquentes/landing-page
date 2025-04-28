@@ -1,0 +1,161 @@
+/* Variables */
+:root{
+    /* Specific colors */
+    --naval-blue: #0B0047;
+
+    --aqua-marine: #50F4A6;
+
+    --aqua-marine-light: #2cd885;
+
+    --black: #000;
+
+    --light-black: #00000033;
+
+    --white: #fff;
+
+    --light-gray: #e7e7e7;
+
+    --gold: #FFC700;
+
+    --gray: #E8E8E8;
+}
+
+[data-theme="dark"] {
+
+    background-color: #060025;
+
+    h1 {
+        color: var(--white);
+    }
+    
+    h2 {
+        color: var(--white);
+    }
+
+    h3 {
+        color: var(--white);
+    }
+    
+    p {
+        color: var(--white);
+    }
+    
+    .container {
+        background-color: var(--naval-blue);    
+    }
+
+    .container .cards {
+        border: 4px solid var(--white);
+    }    
+    
+    .name,
+    .position {
+        color: var(--naval-blue);
+    }
+
+    .contact-icon i {
+        color: var(--white);
+    }
+
+    .faq-btn {
+        color: var(--white);
+    }
+
+    .sec-review {
+        background: none;
+    }
+
+    .form-container {
+        background-color: var(--naval-blue);
+    }
+    
+    .form-name,
+    .form-opinion {
+        background-color: var(--gray);
+    }
+
+    .btn-form {
+        background-color: var(--white);
+        color: var(--naval-blue);
+    }    
+}
+
+[data-theme="high-contrast"] {
+
+    background-color: var(--black);
+
+    h1 {
+        color: var(--white);
+    }
+    
+    h2 {
+        color: var(--white);
+    }
+
+    h3 {
+        color: var(--white);
+    }
+    
+    p {
+        color: var(--white);
+    }
+    
+    header {
+        background-color: var(--black);
+        border: 4px solid var(--white);
+    }
+
+    .btn {
+        background-color: #00FFFF;
+    }
+
+    .container {
+        background-color: var(--black);  
+        border: 4px solid var(--white);  
+    }
+
+    .container .cards {
+        background-color: var(--black);
+        border: 4px solid var(--white);
+    }    
+    
+    .img-our-product img {
+        border: unset;
+    }
+
+    .cards-plans.container button {
+        background-color: #00FFFF;
+    }
+
+    .name,
+    .position {
+        color: var(--black);
+    }
+
+    .contact-icon i {
+        color: var(--white);
+    }
+
+    .faq-btn {
+        color: var(--white);
+    }
+
+    .sec-review {
+        border: none;
+    }
+
+    .form-container {
+        background-color: var(--black);
+        border: 4px solid var(--white);
+    }
+    
+    .form-name,
+    .form-opinion {
+        background-color: var(--gray);
+    }
+
+    .btn-form {
+        background-color: var(--white);
+        color: var(--black);
+    }    
+}

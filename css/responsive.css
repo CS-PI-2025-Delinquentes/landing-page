@@ -1,0 +1,339 @@
+@media (max-width: 1500px) {
+
+    /* General */
+    .container .interface {
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* Top-Site */
+    .img-top-site {
+        align-self: center;
+    }
+
+    .btn-plans {
+        display: none;
+    }
+}
+
+@media (max-width: 1359px) {
+
+    /* Contact */
+    .product-contact {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1225px) {
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 25px;
+    }
+
+    .us-card {
+        width: 30%;
+        min-width: 150px;
+        margin-bottom: 30px;
+    }
+
+    .group-description {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    /* General */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-test {
+        font-size: 28px;
+    }
+
+    /* Header */
+    header .txt-link {
+        font-size: 2.5rem;
+    }
+
+    header .menu-desktop {
+        display: none;
+    }
+
+    /* Reviews */
+    .ratting {
+        grid-template-columns: 1fr;
+        justify-self: unset;
+        width: 100%;
+    }
+    /* contact*/
+    .none{
+        display: flex;
+    }
+    .icon-margin {
+        display: none;
+    }
+    .contact-screen {
+        display: block;
+    }
+    .contact-screen h2{
+        width: unset;
+    }
+
+    /* Button themes */
+    .theme-container {
+        right: 0.5rem;
+        bottom: 0.5rem;
+    }
+
+    .btn-themes {
+        height: 36px;
+        width: 168px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    #brush {
+        height: 64px;
+        width: 64px;
+    }
+
+    #brush img {
+        scale: 0.8;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* General */
+    body {
+        width: 95%;
+    }
+
+    .container {
+        padding: 2rem;
+        margin: 40px 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-test {
+        font-size: 22px;
+    }
+
+    .btn-ourPlans {
+        font-size: 22px;
+    }
+
+    /* Header */
+    header .txt-link {
+        font-size: 2rem;
+    }
+
+    .container .interface {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Top-Site */
+    .txt-top-site {
+        width: unset;
+    }
+
+    .img-top-site {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-top-site img {
+        margin-top: 0;
+    }
+
+    /* Our-Product*/
+    
+
+    .btn-ourPlans {
+        display: flex;
+    }
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 8px;
+    }
+
+    .us-card {
+        width: 40%;
+        min-width: 150px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        max-width: 217px;
+    }
+
+    /* Reviews */
+    .sec-review {
+        padding: 0;
+    }
+
+    .sec-review h3 {
+        font-size: 1.5rem;
+    }
+
+    .reviews {
+        grid-template-columns: 1fr;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .cards-reviews {
+        margin: 0;
+        padding: 1.5rem;
+    }
+
+    .img-reviewer img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .name-reviewer {
+        font-size: 1.2rem;
+    }
+
+    .stars {
+        font-size: 1rem;
+    }
+
+    .form-container {
+        padding: 1rem;
+    }
+
+    .form-name,
+    .form-opinion {
+        font-size: 1rem;
+    }
+
+    .form-stars {
+        font-size: 1.15rem;
+    }
+
+    .btn-form {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 490px) {
+
+    /* General */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .btn-test {
+        font-size: 16px;
+    }
+
+    .btn-ourPlans {
+        font-size: 16px;
+    }
+
+    /* Header */
+    header .btn {
+        display: none;
+    }
+
+    header .interface {
+        justify-content: center;
+    }
+
+    header .txt-link {
+        margin: 0;
+    }
+
+    /* About */
+    .about .cards .img-card {
+        display: none;
+    }
+
+    /* About-us Style */
+    .card-container {
+        column-gap: 8px;
+    }
+
+    .us-card {
+        width: 90%;
+        max-width: 300px;
+        padding-top: 5px;
+    }
+
+    .us-card .txt-card {
+        gap: 0;
+        margin-left: 1rem;
+    }
+
+    /* Style Our Product */
+    .faq .container {
+        padding: 1rem;
+    }
+
+    .faq h2 {
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 0.85rem;
+    }
+
+    .faq-btn {
+        font-size: 0.9rem;
+        padding-right: 0.5rem;
+    }
+
+    /* Reviews */
+    .sec-review h2 {
+        padding: 0.5rem;
+    }
+
+    .name-reviewer {
+        font-size: 1.1rem;
+    }
+
+    .ratting h3 {
+        padding: 0.5rem;
+    }
+}
